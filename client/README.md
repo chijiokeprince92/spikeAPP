@@ -1,0 +1,1 @@
+This project is meant to help people live a stress free life, when it comes to rendering services
