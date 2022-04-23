@@ -36,9 +36,9 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <AppBar className={classes.appBar} position="static" color="inherit">
+    <AppBar className={classes.appBar} position="sticky" color="inherit">
       <div className={classes.brandContainer}>
-        <Typography component={Link} to="/" className={classes.heading} variant="h4" align="center">Gifty</Typography>
+        <Typography component={Link} to="/" className={classes.heading} variant="h6" align="center">Gifty</Typography>
         <img className={classes.image} src={delivery} alt="icon" height="50" />
       </div>
       <Toolbar className={classes.toolbar}>
